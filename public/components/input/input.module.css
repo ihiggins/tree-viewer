@@ -1,0 +1,35 @@
+
+.wrapper{
+    position: relative;
+    margin: auto;
+    right: 0;
+    left: 0 ;
+    height: 40px;
+}
+.input{
+    display:flex;
+    border-radius: 40px;
+    background:white;
+    width:310px;
+    overflow:hidden;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  
+
+    height: 40px;
+    color:blue;
+    border:none;
+    width:400px;
+  
+  }
+  .submit{
+    position: relative;
+    top:-40px;
+    left:87%;
+    width:70px;
+    height:40px;
+  }
+
+
+  .input:focus {
+      outline: none;
+  }
