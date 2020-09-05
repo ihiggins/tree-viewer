@@ -1,10 +1,8 @@
-
 import { promises as fs } from 'fs';
-
 const parse = require('himalaya');
-
 const path = require('path');
 const publicPath = path.join(__dirname , '../public');
+
 
 export default async (req, res) => {
     var url :string = JSON.parse(req.body);
@@ -14,9 +12,6 @@ export default async (req, res) => {
     res.json(temp)
   }
   
-
-
-
   
 // handler
 async function getData(url){
